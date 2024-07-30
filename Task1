@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoClean - Eco-Friendly Cleaning Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333;
+        }
+
+        header {
+            background: #27ae60; /* Eco-friendly green */
+            color: #fff;
+            padding: 1em 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2em;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-left: 1em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: #eafaf1; /* Light green background */
+            padding: 4em 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .hero p {
+            margin: 0.5em 0;
+            font-size: 1.2em;
+        }
+
+        .btn-primary {
+            background: #27ae60; /* Eco-friendly green */
+            color: #fff;
+            padding: 0.75em 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 2em 0;
+        }
+
+        .section .container {
+            padding: 0 2em;
+        }
+
+        .benefits, .pricing {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .benefit, .pricing-option {
+            flex: 1;
+            margin: 0 1em;
+            padding: 1em;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .pricing-option {
+            text-align: center;
+        }
+
+        .btn-secondary {
+            background: #3498db; /* Blue for contrast */
+            color: #fff;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .cta {
+            background: #27ae60; /* Eco-friendly green */
+            color: #fff;
+            text-align: center;
+            padding: 4em 0;
+        }
+
+        footer {
+            background: #2c3e50; /* Dark grey */
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EcoClean</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <h2>Clean Your Space, Save the Planet</h2>
+            <p>Discover the power of eco-friendly cleaning with EcoClean’s innovative, sustainable solutions.</p>
+            <a href="#cta" class="btn-primary">Try EcoClean Today</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About EcoClean</h2>
+            <p>EcoClean offers a range of cleaning products that are both effective and environmentally friendly. Made from natural ingredients and packaged in recyclable materials, EcoClean is your choice for a cleaner home and a cleaner planet.</p>
+        </div>
+    </section>
+
+    <section id="benefits" class="section">
+        <div class="container">
+            <h2>Why Choose EcoClean?</h2>
+            <div class="benefits">
+                <div class="benefit">
+                    <h3>Eco-Friendly Ingredients</h3>
+                    <p>Our products use natural, biodegradable ingredients that are safe for your family and the environment.</p>
+                </div>
+                <div class="benefit">
+                    <h3>Effective Cleaning Power</h3>
+                    <p>Proven to clean as well as traditional products, without harmful chemicals or pollutants.</p>
+                </div>
+                <div class="benefit">
+                    <h3>Sustainable Packaging</h3>
+                    <p>We use recycled and recyclable materials to minimize waste and reduce our carbon footprint.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="section">
+        <div class="container">
+            <h2>Pricing Plans</h2>
+            <div class="pricing">
+                <div class="pricing-option">
+                    <h3>Starter Kit</h3>
+                    <p>$29.99</p>
+                    <p>Includes essential cleaning products to get you started on your eco-friendly journey.</p>
+                    <a href="#cta" class="btn-secondary">Buy Now</a>
+                </div>
+                <div class="pricing-option">
+                    <h3>EcoClean Bundle</h3>
+                    <p>$49.99</p>
+                    <p>A comprehensive set of products for complete eco-friendly cleaning at home.</p>
+                    <a href="#cta" class="btn-secondary">Buy Now</a>
+                </div>
+                <div class="pricing-option">
+                    <h3>Subscription Plan</h3>
+                    <p>$99.99/year</p>
+                    <p>Receive a regular supply of EcoClean products delivered to your door with exclusive discounts.</p>
+                    <a href="#cta" class="btn-secondary">Subscribe</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <div class="container">
+            <h2>Ready to Make the Change?</h2>
+            <p>Join the EcoClean movement today and make a positive impact on your home and the environment.</p>
+            <a href="#contact" class="btn-primary">Contact Us</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EcoClean. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
