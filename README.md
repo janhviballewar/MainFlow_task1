@@ -4,6 +4,8 @@ ID: 13793
 Duration: 25 July to 25 September 2024
 Domain: Full Stack WEb DEvelopment
 
+Website: file:///C:/Users/Administrator/Documents/mainflow.trialtask1.html
+
 OVERVIEW:
 EcoClean is a cutting-edge, eco-friendly cleaning solution designed to keep your home and workplace spotless without harming the environment. Our innovative formula is derived from natural ingredients, ensuring safety for your family, pets, and the planet. EcoClean is tough on dirt but gentle on the Earth, making it the ideal choice for eco-conscious consumers.
 
